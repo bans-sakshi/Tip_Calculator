@@ -11,3 +11,16 @@ C:\Users\Dell\source\repos\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.exe
 C:\Users\Dell\source\repos\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.xml
 C:\Users\Dell\source\repos\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.pdb
 C:\Users\Dell\source\repos\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.Form2.resources
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\bin\Debug\Cal_Tip.exe.config
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\bin\Debug\Cal_Tip.exe
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\bin\Debug\Cal_Tip.pdb
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\bin\Debug\Cal_Tip.xml
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.vbprojAssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.Form1.resources
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.Form2.resources
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.Resources.resources
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.vbproj.GenerateResource.cache
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.vbproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.exe
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.xml
+C:\Users\Dell\Documents\GitHub\Tip_Calculator\Cal_Tip\Cal_Tip\obj\Debug\Cal_Tip.pdb

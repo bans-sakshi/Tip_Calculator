@@ -1,5 +1,14 @@
 ﻿Public Class Form2
 	Public bill, tipPercent, noperson As Double
+
+	Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+		Dim a As Integer
+		a = MsgBox(" Thank you , Visit Again !!", MsgBoxStyle.OkCancel)
+		If (a = MsgBoxResult.Ok) Then
+			Me.Close()
+		ElseIf (a = MsgBoxResult.Cancel) Then
+		End If
+	End Sub
 	' Class is created with input from user for bill amount
 	Public Class Cal
 		Dim total As Double
@@ -43,12 +52,7 @@
 		Dim obj1 As New Cal() ' Object created
 		obj1.Tip_Cal()
 		obj1.Total_Amt()
-		Dim a As Integer
-		a = MsgBox(" Thank you , Visit Again !!", MsgBoxStyle.OkCancel)
-		If (a = MsgBoxResult.Ok) Then
-			Me.Close()
-		ElseIf (a = MsgBoxResult.Cancel) Then
-		End If
+
 
 	End Sub
 End Class

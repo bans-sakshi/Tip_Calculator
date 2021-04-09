@@ -36,6 +36,7 @@ Partial Class Form2
         Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         Me.NumericUpDown2 = New System.Windows.Forms.NumericUpDown()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -44,7 +45,7 @@ Partial Class Form2
         '
         Me.Button1.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Button1.Location = New System.Drawing.Point(258, 355)
+        Me.Button1.Location = New System.Drawing.Point(142, 343)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(302, 39)
         Me.Button1.TabIndex = 0
@@ -172,6 +173,17 @@ Partial Class Form2
         Me.Label6.TabIndex = 15
         Me.Label6.Text = "TIP CALCULATOR"
         '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Britannic Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.Button2.Location = New System.Drawing.Point(524, 341)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(136, 39)
+        Me.Button2.TabIndex = 16
+        Me.Button2.Text = "Exit"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -179,6 +191,7 @@ Partial Class Form2
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.NumericUpDown2)
         Me.Controls.Add(Me.NumericUpDown1)
@@ -214,4 +227,5 @@ Partial Class Form2
     Friend WithEvents NumericUpDown1 As NumericUpDown
     Friend WithEvents NumericUpDown2 As NumericUpDown
     Friend WithEvents Label6 As Label
+    Friend WithEvents Button2 As Button
 End Class
