@@ -1,7 +1,7 @@
 ﻿Public Class Form2
 	Public bill, tipPercent, noperson As Double
 
-	Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+	Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click 'For exit button
 		Dim a As Integer
 		a = MsgBox(" Thank you , Visit Again !!", MsgBoxStyle.OkCancel)
 		If (a = MsgBoxResult.Ok) Then
@@ -29,17 +29,17 @@
 	Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
 		bill = Val(TextBox1.Text) ' store the input value
+		' Exception 1
 		Try
 			If bill = 0 Then
-
 				Throw New ArithmeticException
-
 			End If
 		Catch ey As Exception
 			MsgBox("Input Invalid. Kindly Enter Again !", MsgBoxStyle.Exclamation, "EXCEPTION")
 		End Try
 
 		tipPercent = Val(NumericUpDown1.Text) / 100
+		' Exception 2
 		Try
 			If tipPercent = 0 Then
 				Throw New ArithmeticException
